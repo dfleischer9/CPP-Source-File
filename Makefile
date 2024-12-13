@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS =
-TARGET = parseXML
+TARGET = parseXML.cpp
 SRCS = parseXML.cpp pugixml.cpp
 
 all: $(TARGET)
