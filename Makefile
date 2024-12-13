@@ -9,6 +9,6 @@ $(TARGET): $(SRCS)
 	$(CXX) -o $(TARGET) $(SRCS) $(CXXFLAGS)
 
 clean:
-	del $(TARGET)
+	if exist $(TARGET) del $(TARGET)
 
 .PHONY: all clean
